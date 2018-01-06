@@ -13,12 +13,12 @@
 #### Jupyter Notebooks _(local)_:
 
 1. `$ git clone https://github.com/ArcGIS/aec-scripts.git`
-2. `cd aec-scripts`
-3. `jupyter notebook`
+2. `$ cd aec-scripts`
+3. `$ jupyter notebook`
 
 #### Jupyter Notebooks _(hosted)_:
-1. Copy and paste [`Clone Groups.ipynb`](/Clone-Groups.ipynb)
-2. Where specified, copy and paste [`clone_utils.py`](/clone_utils.py)
+1. Copy and paste [Clone Groups.ipynb](/Clone-Groups.ipynb)
+2. Where specified, copy and paste [clone_utils.py](/clone_utils.py)
 
 #### CLI -- Coming Soon
 
