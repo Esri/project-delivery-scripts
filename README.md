@@ -17,13 +17,8 @@
 3. `$ jupyter notebook`
 
 #### Jupyter Notebooks _(hosted)_:
-<<<<<<< HEAD
 1. Copy and paste [`Clone Groups.ipynb`](/clone_groups.ipynb)
 2. Where specified, copy and paste [`clone_utils.py`](/clone_utils.py)
-=======
-1. Copy and paste [Clone Groups.ipynb](/Clone-Groups.ipynb)
-2. Where specified, copy and paste [clone_utils.py](/clone_utils.py)
->>>>>>> 07bc4c823af20cddf78aa2a7aab7f31297d4e077
 
 #### CLI -- Coming Soon
 
