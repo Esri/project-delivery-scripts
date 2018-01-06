@@ -17,13 +17,13 @@
 3. `jupyter notebook`
 
 #### Jupyter Notebooks _(hosted)_:
-1. Copy and paste [`Clone Groups.ipynb`](/Clone-Groups.ipynb)
+1. Copy and paste [`Clone Groups.ipynb`](/clone_groups.ipynb)
 2. Where specified, copy and paste [`clone_utils.py`](/clone_utils.py)
 
 #### CLI -- Coming Soon
 
 ## Contents
-* [`Clone Groups.ipynb`](/Clone-Groups.ipynb) - Jupyter Notebook to clone group contents.
+* [`Clone Groups.ipynb`](/clone_groups.ipynb) - Jupyter Notebook to clone group contents.
 * [`clone_utils.py`](/clone_utils.py) - Functions to clone groups and items
 
 
