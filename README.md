@@ -1,4 +1,4 @@
-# AEC Project Delivery Automation Scripts
+# Professional Services - Project Delivery Automation Scripts
 
 > POC scripts to automatically deploy the AEC project structure 
 
@@ -8,20 +8,24 @@ These scripts are meant to be a starting point for AEC users to automate the dep
 1. Automatically customize and populate a new ArcGIS Online Organization for project delivery
 2. Clone Apps, Maps, and Data into the respective organizations for AEC users to do work and end users to access project updates.
 
-## Prerequisites
+Before a customer starts automating the deployment of a Project Delivery Organziation a there are some prerequisites  
+
+### Prerequisites for Using Project Delivery
 
 Below are the prerequisites for deploying the Project Delivery Organizations
 
-### Education Prerequisites
+#### Education Prerequisites
 
-AEC Firm needs to have a firm grasp on the WebGIS Paradigm. The AEC firm should be actively using WebGIS internally to deliver GIS Services to different parts of the orgnaization.
+AEC Firm needs to have a firm grasp on the WebGIS Paradigm. The AEC firm should be actively using WebGIS internally to deliver GIS Services to different parts of the orgnaization. Once the organization is successful internally they can begin working on finding strategies to delvivering content to their end users throughout the project lifecycle. 
 
-### Infrastructure Prerequisites
+#### Infrastructure Prerequisites
 AEC Firm must have an ArcGIS Online Environment.
   
   If the AEC Firm is using ArcGIS Enterprise they must deploy a Hybrid Environment (ArcGIS Enterprise & ArcGIS Online) to leverage the Project Delivery Organizations.
 
-### Script Prerequisites
+#### Automation Prerequisites
+
+#### Script Prerequisites
 
 * Install the [ArcGIS API for Python](https://developers.arcgis.com/python/) ([instructions](https://developers.arcgis.com/python/guide/install-and-set-up/))
 
