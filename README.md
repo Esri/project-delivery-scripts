@@ -9,10 +9,13 @@ These scripts are meant to be a starting point for AEC users to automate the dep
 2. Clone Apps, Maps, and Data into the respective organizations for AEC users to do work and end users to access project updates.
 
 ## Prerequisites
+
 Below are the prerequisites for deploying the Project Delivery Organizations
 
 ### Education Prerequisites
+
 AEC Firm needs to have a firm grasp on the WebGIS Paradigm.
+
   The AEC firm should be actively using WebGIS internally to deliver GIS Services to different parts of the orgnaization.
 
 ### Infrastructure Prerequisites
