@@ -15,10 +15,13 @@
 1. `$ git clone https://github.com/ArcGIS/aec-scripts.git`
 2. `$ cd aec-scripts`
 3. `$ jupyter notebook`
+4. Open `clone_groups`
+5. Update GIS information and user-defined constants
 
 #### Jupyter Notebooks _(hosted)_:
 1. Copy and paste [`clone_groups.ipynb`](/clone_groups.ipynb)
-2. Where specified, copy and paste [`clone_utils.py`](/clone_utils.py)
+2. Update GIS information and user-defined constants
+3. Where specified, copy and paste [`clone_utils.py`](/clone_utils.py)
 
 #### CLI -- Coming Soon
 
