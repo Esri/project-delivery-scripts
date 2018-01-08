@@ -1,6 +1,6 @@
 # Professional Services - Project Delivery Automation Scripts
 
-> POC scripts to automatically deploy the AEC project structure 
+POC scripts to help a Services Organization automate the process of deploying an ArcGIS Online Environment for Project Collaboration and Delivery
 
 ## About
 
