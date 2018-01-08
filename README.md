@@ -11,9 +11,6 @@ These scripts are meant to be a starting point for AEC users to automate the dep
 Before a customer starts automating the deployment of a Project Delivery Organziation a there are some prerequisites  
 
 ### Prerequisites for Using Project Delivery
-
-Below are the prerequisites for deploying the Project Delivery Organizations
-
 #### Education Prerequisites
 
 AEC Firm needs to have a firm grasp on the WebGIS Paradigm. The AEC firm should be actively using WebGIS internally to deliver GIS Services to different parts of the orgnaization. Once the organization is successful internally they can begin working on finding strategies to delvivering content to their end users throughout the project lifecycle. 
