@@ -65,7 +65,7 @@ def copy_item(item, target, owner, **kwargs):
                 continue
             print("WARN: Item {} already exists. Updating...".format(item['title']))
             share_groups = [g for g in target_groups if s_item not in g.content()]
-            s_item.share(groups=[share_groups])
+            s_item.share(groups=share_groups)
             s_item.move(folder, owner)
             return s_item
 
@@ -123,8 +123,8 @@ def copy_group(source, source_group, target, **kwargs):
     with tempfile.TemporaryDirectory() as temp_dir:
         try:
             # Copy group properties
-            new_group = ({property_name: source_group[property_name]
-                          for property_name in group_properties})
+            new_group = {property_name: source_group[property_name]
+                         for property_name in group_properties}
             new_group = modify_group(new_group) if modify_group else new_group
 
             # ArcGIS Online to Enterprise
@@ -162,6 +162,11 @@ def copy_group_and_items(source, source_group, target, group_args={}, item_args=
     """
     target_group = copy_group(source, source_group, target, **group_args)
 
+    # If there was an error (eg group already exists), just return
+    if not target_group:
+        return
+
+    # Copy all items in a group
     for item in source_group.content():
         copy_item(item, target, target_groups=[target_group], **item_args)
 
