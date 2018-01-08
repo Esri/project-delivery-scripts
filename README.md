@@ -3,8 +3,8 @@
 > These scripts provide a starting point for an AEC a customer to automate the deployment of their industry specific maps and apps to end users. 
 
 > These scripts do 2 things:
-* 1. The scripts automate the creation of a new ArcGIS Online Organization for Project Delivery.
-* 2. Once the Project Delivery Organization exists the 2nd script will clone Apps, Maps, and Data into the respective place for the AEC firm to do work and the end user to access the status updates.
+* The scripts automate the creation of a new ArcGIS Online Organization for Project Delivery.
+* Once the Project Delivery Organization exists the 2nd script will clone Apps, Maps, and Data into the respective place for the AEC firm to do work and the end user to access the status updates.
 
 ## Script Prerequisites
 
