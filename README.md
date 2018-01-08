@@ -1,8 +1,12 @@
-# AEC Scripts
+# AEC Project Delivery Automation Scripts
 
-> Scripts to automatically deploy the AEC project structure
+> These scripts provide a starting point for an AEC a customer to automate the deployment of their industry specific maps and apps to end users. 
 
-## Prerequisites
+> These scripts do 2 things:
+1. The scripts automate the creation of a new ArcGIS Online Organization for Project Delivery.
+2. Once the Project Delivery Organization exists the 2nd script will clone Apps, Maps, and Data into the respective place for the AEC firm to do work and the end user to access the status updates.
+
+## Script Prerequisites
 
 * Install the [ArcGIS API for Python](https://developers.arcgis.com/python/) ([instructions](https://developers.arcgis.com/python/guide/install-and-set-up/))
 
