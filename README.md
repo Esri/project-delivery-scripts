@@ -14,12 +14,11 @@ Below are the prerequisites for deploying the Project Delivery Organizations
 
 ### Education Prerequisites
 
-AEC Firm needs to have a firm grasp on the WebGIS Paradigm.
-
-  The AEC firm should be actively using WebGIS internally to deliver GIS Services to different parts of the orgnaization.
+AEC Firm needs to have a firm grasp on the WebGIS Paradigm. The AEC firm should be actively using WebGIS internally to deliver GIS Services to different parts of the orgnaization.
 
 ### Infrastructure Prerequisites
 AEC Firm must have an ArcGIS Online Environment.
+  
   If the AEC Firm is using ArcGIS Enterprise they must deploy a Hybrid Environment (ArcGIS Enterprise & ArcGIS Online) to leverage the Project Delivery Organizations.
 
 ### Script Prerequisites
