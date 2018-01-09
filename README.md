@@ -10,6 +10,7 @@
 * [Contents](#contents)
 
 ## About
+Project Delivery is a new product. It allows a Services company to purchase and manage ArcGIS Online on behalf of their endusers. [Minimum requirements for Product Delivery](/images/Project Delivery Org.PNG)
 
 These scripts are meant to be a starting point for Services users to automate the deployment of their industry specific maps and apps to end users. They do two things:
 1. Automatically customize and populate a new ArcGIS Online Organization for project delivery
