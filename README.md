@@ -4,10 +4,10 @@
 
 ## Table of Contents
 
-* [About](#About)
-* [Prerequisites](#Prerequisites-for-Using-Project-Delivery)
-* [Getting Started](#Getting-Started)
-* [Contents](#Contents)
+* [About](#about)
+* [Prerequisites](#prerequisites-for-using-project-delivery)
+* [Getting Started](#getting-started)
+* [Contents](#contents)
 
 ## About
 
