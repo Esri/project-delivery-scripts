@@ -2,6 +2,13 @@
 
 > POC scripts to help a Services Organization automate the deployment process of an ArcGIS Online Environment for Project Collaboration and Delivery
 
+## Table of Contents
+
+* [About](#About)
+* [Prerequisites](#Prerequisites-for-Using-Project-Delivery)
+* [Getting Started](#Getting-Started)
+* [Contents](#Contents)
+
 ## About
 
 These scripts are meant to be a starting point for Services users to automate the deployment of their industry specific maps and apps to end users. They do two things:
