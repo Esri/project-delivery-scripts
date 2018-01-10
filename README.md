@@ -19,21 +19,22 @@ These scripts are meant to be a starting point for Services users to automate th
 Before a customer starts automating the deployment of a Project Delivery Organziation a there are some prerequisites
 
 ## Prerequisites for Using Project Delivery
-Is the customer Ready for this? [Product readiness checklist](Resource/ProjectDeliveryReadiness.pdf)
+Is the customer Ready for this? [Product Readiness Checklist](Resource/ProjectDeliveryReadiness.pdf)
 
 ### Education Prerequisites
 
 Services Firm needs to have a firm grasp on the WebGIS Paradigm. The Services firm should be actively using WebGIS internally to deliver GIS Services to different parts of the orgnaization. Once the organization is successful internally they can begin working on finding strategies to delvivering content to their end users throughout the project lifecycle. 
 
 ### Infrastructure Prerequisites
-
+ArcGIS Online 
+ArcGIS Enterprise
 Services Firm must have an ArcGIS Online Environment.
 
   If the Services Firm is using ArcGIS Enterprise they must deploy a Hybrid Environment (ArcGIS Enterprise & ArcGIS Online) to leverage the Project Delivery Organizations.
 
 ### Automation Prerequisites
 
-__[TBD]__
+A
 
 ### Script Prerequisites
 
