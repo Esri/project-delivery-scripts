@@ -26,10 +26,11 @@ Is the customer Ready for this? [Product Readiness Checklist](Resource/ProjectDe
 Services Firm needs to have a firm grasp on the WebGIS Paradigm. The Services firm should be actively using WebGIS internally to deliver GIS Services to different parts of the orgnaization. Once the organization is successful internally they can begin working on finding strategies to delvivering content to their end users throughout the project lifecycle. 
 
 ### Infrastructure Prerequisites
+
 Services firm **Must** have **an internal ArcGIS Online** to use Project Delivery.
-Project Delivery Infrastucture with on **[ArcGIS Online](/Resource/ArcGISOnline_NOAutomation.PNG)**
-Project Delivery Infrastucture with on **[ArcGIS Enterprise](/Resource/ArcGISEnterprise_NOAutomation.PNG)**
-  If the Services Firm is using ArcGIS Enterprise they must deploy a Hybrid Environment (ArcGIS Enterprise & ArcGIS Online) to leverage the Project Delivery Organizations.
+* Project Delivery Infrastucture with on **[ArcGIS Online](/Resource/ArcGISOnline_NOAutomation.PNG)**
+* Project Delivery Infrastucture with on **[ArcGIS Enterprise](/Resource/ArcGISEnterprise_NOAutomation.PNG)**
+*  If the Services Firm is using ArcGIS Enterprise they must deploy a Hybrid Environment (ArcGIS Enterprise & ArcGIS Online) to leverage the Project Delivery Organizations.
 
 ### Automation Prerequisites
 
