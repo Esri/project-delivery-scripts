@@ -27,10 +27,10 @@ Services Firm needs to have a firm grasp on the WebGIS Paradigm. The Services fi
 
 ### Infrastructure Prerequisites
 
-Services firm **Must** have **an internal ArcGIS Online** to use Project Delivery.
+Services firm **Must** have **an Internal ArcGIS Online** to use Project Delivery.
 * Project Delivery Infrastucture with on **[ArcGIS Online](/Resource/ArcGISOnline_NOAutomation.PNG)**
 * Project Delivery Infrastucture with on **[ArcGIS Enterprise](/Resource/ArcGISEnterprise_NOAutomation.PNG)**
-*  If the Services Firm is using ArcGIS Enterprise they must deploy a Hybrid Environment (ArcGIS Enterprise & ArcGIS Online) to leverage the Project Delivery Organizations.
+** If the Services Firm is using ArcGIS Enterprise they must deploy a Hybrid Environment (ArcGIS Enterprise & ArcGIS Online) to leverage the Project Delivery Organizations.
 
 ### Automation Prerequisites
 
