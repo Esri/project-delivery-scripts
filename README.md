@@ -19,6 +19,7 @@ These scripts are meant to be a starting point for Services users to automate th
 Before a customer starts automating the deployment of a Project Delivery Organziation a there are some prerequisites
 
 ## Prerequisites for Using Project Delivery
+Is the customer Ready for this? [Product readiness checklist] (Resources/ProjectDeliveryReadiness.pdf)
 
 ### Education Prerequisites
 
