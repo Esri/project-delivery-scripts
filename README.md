@@ -38,8 +38,8 @@ Before automating we always recommend a services firm to deploy a few Delivery o
 
 To automate the Project Delivery the services firm must have a template environment with materials (IE: Banner, Images, Thumbnails... etc) for the organizations. Services firm needs to have predefined governace and content strategies for each organziation.
 
-* Project Delivery Infrastucture with on **[ArcGIS Online](/Resource/ArcGISOnline_Automation.PNG)**
-* Project Delivery Infrastucture with on **[ArcGIS Enterprise](/Resource/ArcGISEnterprise_Automation.PNG)**
+* Project Delivery Automation Infrastucture with on **[ArcGIS Online](/Resource/ArcGISOnline_Automation.PNG)**
+* Project Delivery Automation Infrastucture with on **[ArcGIS Enterprise](/Resource/ArcGISEnterprise_Automation.PNG)**
 
 
 ### Script Prerequisites
