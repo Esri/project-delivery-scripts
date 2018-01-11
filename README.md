@@ -34,12 +34,13 @@ Services firm **Must** have **an Internal ArcGIS Online** to use Project Deliver
 * Project Delivery Infrastucture with on **[ArcGIS Enterprise](/Resource/ArcGISEnterprise_NOAutomation.PNG)**
   - If the Services Firm is using ArcGIS Enterprise they must deploy a Hybrid Environment (ArcGIS Enterprise & ArcGIS Online) to leverage the Project Delivery Organizations.
 #### Automation Prerequisites
+Before automating we always recommend a services firm to deploy a few Delivery organizations manuall
 
 To automate the Project Delivery the services firm must have a template environment with materials (IE: Banner, Images, Thumbnails... etc) for the organizations. Services firm needs to have predefined governace and content strategies for each organziation.
 
 * Project Delivery Infrastucture with on **[ArcGIS Online](/Resource/ArcGISOnline_Automation.PNG)**
 * Project Delivery Infrastucture with on **[ArcGIS Enterprise](/Resource/ArcGISEnterprise_Automation.PNG)**
-A customer should pilot and test the 
+
 
 ### Script Prerequisites
 
