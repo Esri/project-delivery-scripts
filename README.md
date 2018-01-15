@@ -54,18 +54,24 @@ To automate the Project Delivery the services firm must have a template environm
 1. `$ git clone https://github.com/ArcGIS/aec-scripts.git`
 2. `$ cd aec-scripts`
 3. `$ jupyter notebook`
-4. Open `clone_groups`
+4. Open `clone_groups.ipynb` & `build_org.ipynb`
 5. Update GIS information and user-defined constants
+6. Run!
 
 ### Jupyter Notebooks _(hosted)_:
 1. Copy and paste [`clone_groups.ipynb`](/clone_groups.ipynb)
 2. Update GIS information and user-defined constants
-3. Where specified, copy and paste [`clone_utils.py`](/clone_utils.py)
+3. Where specified, copy and paste [`/utils/clone_utils.py`](/utils/clone_utils.py)
+4. Run `clone_groups.ipynb`!
+5. Repeat with [`build_org.ipynb`](/build_org.ipynb) but, _where specified_, copy and paste [`/utils/user_utils.py`](/utils/user_utils.py)
 
 ### CLI -- Coming Soon
 
 ## Contents
-* [`clone_groups.ipynb`](/clone_groups.ipynb) - Jupyter Notebook to clone group contents.
-* [`clone_utils.py`](/clone_utils.py) - Functions to clone groups and items
+* [`clone_groups.ipynb`](/clone_groups.ipynb) - Jupyter Notebook to clone groups and their items
+* [`build_org.ipynb`](/clone_groups.ipynb) - Jupyter Notebook to customize org UI & add users
+* [`utils`](/utils)
+    * [`clone_utils`](/utils/clone_utils.py) - utility functions to assist with cloning groups & items
+    * [`user_utils`](/utils/user_utils.py) - utility functions to assist with adding users
 
 
