@@ -6,8 +6,8 @@
 
 * [About](#about)
 * [Prerequisites](#prerequisites-for-using-project-delivery)
-* [Getting Started](#getting-started)
 * [Contents](#contents)
+* [Getting Started](#getting-started)
 
 ## About
 Project Delivery is a new product. It allows a Services company to purchase and manage ArcGIS Online on behalf of their endusers. [Minimum Requirements for Product Delivery Organization](Resource/Project_Delivery_Org.PNG)
@@ -47,6 +47,13 @@ To automate the Project Delivery the services firm must have a template environm
 * Install the [ArcGIS API for Python](https://developers.arcgis.com/python/) ([instructions](https://developers.arcgis.com/python/guide/install-and-set-up/))
 * Access to [Jupyter Notebooks](http://jupyter.org/) (included with ArcGIS Python API __?__ )
 
+## Contents
+* [`clone_groups.ipynb`](/clone_groups.ipynb) - Jupyter Notebook to clone groups and their items
+* [`build_org.ipynb`](/clone_groups.ipynb) - Jupyter Notebook to customize org UI & add users
+* [`utils/`](/utils)
+    * [`clone_utils.py`](/utils/clone_utils.py) - utility functions to assist with cloning groups & items
+    * [`user_utils.py`](/utils/user_utils.py) - utility functions to assist with adding users
+
 ## Getting Started
 
 ### Jupyter Notebooks _(local)_:
@@ -66,12 +73,5 @@ To automate the Project Delivery the services firm must have a template environm
 5. Repeat with [`build_org.ipynb`](/build_org.ipynb) but, _where specified_, copy and paste [`user_utils.py`](/utils/user_utils.py)
 
 ### CLI -- Coming Soon
-
-## Contents
-* [`clone_groups.ipynb`](/clone_groups.ipynb) - Jupyter Notebook to clone groups and their items
-* [`build_org.ipynb`](/clone_groups.ipynb) - Jupyter Notebook to customize org UI & add users
-* [`utils`](/utils)
-    * [`clone_utils.py`](/utils/clone_utils.py) - utility functions to assist with cloning groups & items
-    * [`user_utils.py`](/utils/user_utils.py) - utility functions to assist with adding users
 
 
