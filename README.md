@@ -4,12 +4,13 @@
 
 ## Table of Contents
 
-* [About](#About)
-* [Prerequisites](#Prerequisites-for-Using-Project-Delivery)
-* [Getting Started](#Getting-Started)
-* [Contents](#Contents)
+* [About](#about)
+* [Prerequisites](#prerequisites-for-using-project-delivery)
+* [Getting Started](#getting-started)
+* [Contents](#contents)
 
 ## About
+Project Delivery is a new product. It allows a Services company to purchase and manage ArcGIS Online on behalf of their endusers. [Minimum Requirements for Product Delivery Organization](Resource/Project_Delivery_Org.PNG)
 
 These scripts are meant to be a starting point for Services users to automate the deployment of their industry specific maps and apps to end users. They do two things:
 1. Automatically customize and populate a new ArcGIS Online Organization for project delivery
@@ -18,6 +19,7 @@ These scripts are meant to be a starting point for Services users to automate th
 Before a customer starts automating the deployment of a Project Delivery Organziation a there are some prerequisites
 
 ## Prerequisites for Using Project Delivery
+Is the customer Ready for this? [Product Readiness Checklist](Resource/ProjectDeliveryReadiness.pdf)
 
 ### Education Prerequisites
 
@@ -25,13 +27,20 @@ Services Firm needs to have a firm grasp on the WebGIS Paradigm. The Services fi
 
 ### Infrastructure Prerequisites
 
-Services Firm must have an ArcGIS Online Environment.
+Services firm **Must** have **an Internal ArcGIS Online** to use Project Delivery.
 
-  If the Services Firm is using ArcGIS Enterprise they must deploy a Hybrid Environment (ArcGIS Enterprise & ArcGIS Online) to leverage the Project Delivery Organizations.
+#### Manual Project Delivery 
+* Project Delivery Infrastucture with on **[ArcGIS Online](/Resource/ArcGISOnline_NOAutomation.PNG)**
+* Project Delivery Infrastucture with on **[ArcGIS Enterprise](/Resource/ArcGISEnterprise_NOAutomation.PNG)**
+  - If the Services Firm is using ArcGIS Enterprise they must deploy a Hybrid Environment (ArcGIS Enterprise & ArcGIS Online) to leverage the Project Delivery Organizations.
+#### Automation Prerequisites
+Before automating we always recommend a services firm to deploy a few Delivery organizations manuall
 
-### Automation Prerequisites
+To automate the Project Delivery the services firm must have a template environment with materials (IE: Banner, Images, Thumbnails... etc) for the organizations. Services firm needs to have predefined governace and content strategies for each organziation.
 
-__[TBD]__
+* Project Delivery Automation Infrastucture with on **[ArcGIS Online](/Resource/ArcGISOnline_Automation.PNG)**
+* Project Delivery Automation Infrastucture with on **[ArcGIS Enterprise](/Resource/ArcGISEnterprise_Automation.PNG)**
+
 
 ### Script Prerequisites
 
