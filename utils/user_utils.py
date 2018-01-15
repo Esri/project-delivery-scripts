@@ -1,4 +1,4 @@
-"""util functions to copy items and groups"""
+"""utility functions to assist with adding users"""
 import csv
 
 USER_FIELDS = ["username", "password", "firstname", "lastname", "email", "role", "groups",

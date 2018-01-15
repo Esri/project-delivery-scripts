@@ -1,4 +1,4 @@
-"""util functions to clone items and groups"""
+"""utility functions to assist with cloning groups & items"""
 
 def search_item_title(target, title):
     """search org for an existing item with title
