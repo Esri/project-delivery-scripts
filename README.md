@@ -61,9 +61,9 @@ To automate the Project Delivery the services firm must have a template environm
 ### Jupyter Notebooks _(hosted)_:
 1. Copy and paste [`clone_groups.ipynb`](/clone_groups.ipynb)
 2. Update GIS information and user-defined constants
-3. Where specified, copy and paste [`/utils/clone_utils.py`](/utils/clone_utils.py)
+3. Where specified, copy and paste [`clone_utils.py`](/utils/clone_utils.py)
 4. Run `clone_groups.ipynb`!
-5. Repeat with [`build_org.ipynb`](/build_org.ipynb) but, _where specified_, copy and paste [`/utils/user_utils.py`](/utils/user_utils.py)
+5. Repeat with [`build_org.ipynb`](/build_org.ipynb) but, _where specified_, copy and paste [`user_utils.py`](/utils/user_utils.py)
 
 ### CLI -- Coming Soon
 
