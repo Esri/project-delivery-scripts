@@ -49,7 +49,7 @@ To automate the Project Delivery the services firm must have a template environm
 
 ## Contents
 * [`clone_groups.ipynb`](/clone_groups.ipynb) - Jupyter Notebook to clone groups and their items
-* [`build_org.ipynb`](/build_org.ipynb) - Jupyter Notebook to customize org UI & add users
+* [`configure_org.ipynb`](/configure_org.ipynb) - Jupyter Notebook to customize org UI & add users
 * [`utils/`](/utils)
     * [`clone_utils.py`](/utils/clone_utils.py) - utility functions to assist with cloning groups & items
     * [`user_utils.py`](/utils/user_utils.py) - utility functions to assist with adding users
@@ -70,7 +70,7 @@ To automate the Project Delivery the services firm must have a template environm
 2. Update GIS information and user-defined constants
 3. Where specified, copy and paste [`clone_utils.py`](/utils/clone_utils.py)
 4. Run `clone_groups.ipynb`!
-5. Repeat with [`build_org.ipynb`](/build_org.ipynb) but, _where specified_, copy and paste [`user_utils.py`](/utils/user_utils.py)
+5. Repeat with [`configure_org.ipynb`](/configure_org.ipynb) but, _where specified_, copy and paste [`user_utils.py`](/utils/user_utils.py)
 
 ### CLI -- Coming Soon
 
