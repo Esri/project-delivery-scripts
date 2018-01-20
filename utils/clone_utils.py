@@ -53,6 +53,8 @@ def clone_items_modify(items, target,
     from arcgis.gis import Group
     from arcgis.gis import Item
 
+    # allow single values
+    items = items if isinstance(items, list) else [items]
     # clone the items
     results = target.content.clone_items(items, **kwargs)
 
