@@ -2,7 +2,6 @@
 test.py
 test.ipynb
 test.csv
-test/
 *.DS_STORE
 
 # vscode
