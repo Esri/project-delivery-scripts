@@ -1,6 +1,6 @@
 # Professional Services - Project Delivery Automation Scripts
 
-> POC scripts to help a Services Organization automate the deployment process of an ArcGIS Online Environment for Project Collaboration and Delivery
+> Python scripts to help a Services Organization automate the deployment process of an ArcGIS Online Environment for Project Collaboration and Delivery
 
 ## Table of Contents
 
