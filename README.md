@@ -1,6 +1,6 @@
-# aec-scripts
+# pdo-scripts
 
-Project Delivery is a new product that allows a Services company to purchas and manage ArcGIS Online on behalf of their end users. ([Minimum Requirements for Product Delivery Organization](Resource/Project_Delivery_Org.PNG)) These scripts are meant to be a starting point for Services users to automate the deployment of their industry-specific maps and apps to end users. They do two things:
+Project Delivery is a new product that allows a Services company to purchase and manage ArcGIS Online on behalf of their end users. ([Minimum Requirements for Product Delivery Organization](Resource/Project_Delivery_Org.PNG)) These scripts are meant to be a starting point for Services users to automate the deployment of their industry-specific maps and apps to end users. They do two things:
 1. Automatically customize and populate a new ArcGIS Online Organization for project delivery
 2. Clone Apps, Maps, and Data into the respective organizations for Services users to do work and end users to access project updates.
 
