@@ -1,10 +1,6 @@
 # Case 1: ArcGIS Online Only
 
-## This folder contains scripts to run if the user has an ArcGIS Online Organization
-## that they want to use to share content with their customers (the delivery organizations).
-## The user's ArcGIS Online Organization will contain a template group or groups containing
-## items (services, feature layers, maps, scenes, apps, etc.) that they want to clone
-## for each delivery organization that they work with.
+## This folder contains scripts to run if the user has an ArcGIS Online Organization that they want to use to share content with their customers (the delivery organizations). The user's ArcGIS Online Organization will contain a template group or groups containing items (services, feature layers, maps, scenes, apps, etc.) that they want to clone for each delivery organization that they work with.
 
 ### Script 1: Clone_Groups.ipynb
 In this script, the template groups will be copied within the Project organization and renamed so they can be identified
