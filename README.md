@@ -1,53 +1,51 @@
-# pdo-scripts
+# Project-Delivery Organization Scripts
 
-Project Delivery is a new product that allows a Services company to purchase and manage ArcGIS Online on behalf of their end users. ([Minimum Requirements for Product Delivery Organization](Resource/Project_Delivery_Org.PNG)) These scripts are meant to be a starting point for Services users to automate the deployment of their industry-specific maps and apps to end users. They do two things:
+Project Delivery allows a Services company (the project organization) to purchase and manage ArcGIS Online on behalf of their end users (the delivery organizations). These scripts are meant to be a starting point for Services users to automate the deployment of their industry-specific maps and apps to end users. They do two things:
 1. Automatically customize and populate a new ArcGIS Online Organization for project delivery
 2. Clone Apps, Maps, and Data into the respective organizations for Services users to do work and end users to access project updates.
 
+
+There are two versions:
+1. Enterprise Scripts: use the scripts in this folder if the company has ArcGIS Enterprise and an ArcGIS Online Organization and they want to use both to share content with the end users. The Online Org and the Portal will both have a group that can be empty or contain template items that they want to deploy to end users.
+2. ArcGIS Online Only Scripts: use the scripts in this folder if the company just has an ArcGIS Online Organziation that they want to use to share content with their end users. The company's ArcGIS Online Organization will have a template group or groups containing items that they want to deploy to end users.
+
+
 ## Features
-* [`clone_groups.ipynb`](/clone_groups.ipynb) - Jupyter Notebook to clone groups and their items
-* [`configure_org.ipynb`](/configure_org.ipynb) - Jupyter Notebook to customize org UI & add users
-* [`utils/`](/utils)
-    * [`clone_utils.py`](/utils/clone_utils.py) - utility functions to assist with cloning groups & items
-    * [`user_utils.py`](/utils/user_utils.py) - utility functions to assist with adding users
+* [`enterprise-scripts`](/enterprise-scipts) - scripts to use if you have enterprise
+    * [`setup_collaboration.ipynb`](/setup_collaboration.ipynb) - Jupyter Notebook to create enterprise and Online collaboration
+    * [`clone_groups.ipynb`](/clone_groups.ipynb) - Jupyter Notebook to clone groups and their items
+    * [`configure_org.ipynb`](/configure_org.ipynb) - Jupyter Notebook to customize org UI & add users
+* [`agol-only-scripts`](/agol-only-scripts) - scripts to use if you have ArcGIS Online only
+    * [`clone_groups.ipynb`](/clone_groups.ipynb) - Jupyter Notebook to clone groups and their items
+    * [`configure_org.ipynb`](/configure_org.ipynb) - Jupyter Notebook to customize org UI & add users
+* [`Sample Config`](/Sample Config) - contains sample files to use in configure_org.ipynb
 
 ## Instructions
 
-### Jupyter Notebooks _(local)_:
-1. Fork and then clone the repo (`$ git clone https://github.com/ArcGIS/aec-scripts.git`)
-2. `$ cd aec-scripts`
-3. Open a Jupyter Notebook (`$ jupyter notebook`)
-4. Open `clone_groups.ipynb` and `build_org.ipynb`
-5. Update GIS information and user-defined constants
-6. Run the Notebook.
+1. Pick which version of the scripts will work for your set-up
+2. Find the group IDs for the groups involved in collaboration or sharing. These can be found by navigating to the group page and looking in the URL (for example, if the URL is http://envisioning.maps.arcgis.com/home/group.html?id=a7903db4086641b98570bce5856a6364#overview, the group ID is "a7903db4086641b98570bce5856a6364".
+3. Change the variables in the first cell of each script before you run it
 
-### Jupyter Notebooks _(hosted)_:
-1. Copy and paste [`clone_groups.ipynb`](/clone_groups.ipynb)
-2. Update GIS information and user-defined constants
-3. Where specified, copy and paste [`clone_utils.py`](/utils/clone_utils.py)
-4. Run `clone_groups.ipynb`.
-5. Repeat with [`configure_org.ipynb`](/configure_org.ipynb) but, _where specified_, copy and paste [`user_utils.py`](/utils/user_utils.py)
+### Jupyter Notebooks:
+1. Download the zip or clone the repo (`$ git clone https://github.com/ArcGIS/pdo-scripts.git`)
+2. Nativate to the correct folder `$ cd pdo-scripts/enterprise-scripts` or `$ cd pdo-scripts/agol-online-only`
+3. Open a Jupyter Notebook that has access to the arcgis (api) library (`$ jupyter notebook`)
+4. Read the Readme located in the enterprise or arcigs online only folder and follow the rest of the instructions there.
+
 
 ## Requirements
 
-* Meet the requirements in the [Product Readiness Checklist](Resource/ProjectDeliveryReadiness.pdf)
-* The services firm needs to have a firm grasp on the WebGIS Paradigm. The Services firm should be actively using WebGIS internally to deliver GIS services to different parts of the organization. Once the organization is successful internally, they can begin working on finding strategies to deliver content to their end users throughout the project lifecycle.
-* Services firms **must** have an **internal ArcGIS Online** to use Project Delivery
-* Project Delivery Infrastucture with **[ArcGIS Online](/Resource/ArcGISOnline_NOAutomation.PNG)**
-* Project Delivery Infrastucture with **[ArcGIS Enterprise](/Resource/ArcGISEnterprise_NOAutomation.PNG)**
-    - If the Services Firm is using ArcGIS Enterprise they must deploy a Hybrid Environment (ArcGIS Enterprise & ArcGIS Online) to leverage the Project Delivery Organizations.
-* Before automating, we recommend a services firm to deploy a few delivery organizations manually.
-* The services firm must have a template environment with materials (i.e. banner, images, thumbnails, etc.) for the organizations. The services firm needs to have predefined governance and content strategies for each organization.
-* Project Delivery Automation Infrastucture with **[ArcGIS Online](/Resource/ArcGISOnline_Automation.PNG)**
-* Project Delivery Automation Infrastucture with **[ArcGIS Enterprise](/Resource/ArcGISEnterprise_Automation.PNG)**
 * Install the [ArcGIS API for Python](https://developers.arcgis.com/python/)([instructions](https://developers.arcgis.com/python/guide/install-and-set-up/))
-* Access to [Jupyter Notebooks](http://jupyter.org/)(included with ArcGIS Python API __?__)
+* Access to [Jupyter Notebooks](http://jupyter.org/)(included with [ArcGIS Python API](https://developers.arcgis.com/python/guide/install-and-set-up/#Test-your-install-with-jupyter-notebook))
+* ArcGIS Online Organization for the company (project org), and at least one Organization for an end user (delivery org)
+    - you must have access to both of these orgs with administrator privileges
+* Before automating, we recommend a services firm to deploy a few delivery organizations manually.
+* A template environment with materials for the organizations that lives in the company's Online Organization or Enterprise System (or both)
 
 ## Resources
 
+* [Collaboration FAQs](https://enterprise.arcgis.com/en/portal/latest/administer/windows/common-questions-for-distributed-collaboration.htm)
 * [ArcGIS for Python API Resource Center](https://community.esri.com/groups/arcgis-python-api/)
-* [ArcGIS Blog](http://blogs.esri.com/esri/arcgis/)
-* [twitter@esri](http://twitter.com/esri)
 
 ## Issues
 
