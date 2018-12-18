@@ -18,12 +18,12 @@ There are two versions:
 * [`agol-only-scripts`](/agol-only-scripts) - scripts to use if you have ArcGIS Online only
     * [`clone_groups.ipynb`](/agol-only-scripts/clone_groups.ipynb) - Jupyter Notebook to clone groups and their items
     * [`configure_org.ipynb`](/agol-only-scripts/configure_org.ipynb) - Jupyter Notebook to customize org UI & add users
-* [`Sample Config`](/Sample Config) - contains sample files to use in configure_org.ipynb
+* [`Sample Config`](/Sample_Config) - contains samples of files used in configure_org.ipynb
 
 ## Instructions
 
-1. Pick which version of the scripts will work for your set-up (Enterprise or Online)
-2. Download the zip or clone the repo (`$ git clone https://github.com/ArcGIS/pdo-scripts.git`)
+1. Download the zip or clone the repo (`$ git clone https://github.com/ArcGIS/pdo-scripts.git`)
+2. Pick which version of the scripts will work for your set-up (Enterprise or Online)
 3. Nativate to the correct folder `$ cd pdo-scripts/enterprise-scripts` or `$ cd pdo-scripts/agol-online-only`
 4. Open a Jupyter Notebook that has access to the arcgis (api) library (`$ jupyter notebook`)
 5. Read the Readme located in the enterprise or arcigs online only folder and follow the rest of the instructions there.
@@ -41,6 +41,9 @@ There are two versions:
 ## Resources
 
 * [Collaboration FAQs](https://enterprise.arcgis.com/en/portal/latest/administer/windows/common-questions-for-distributed-collaboration.htm)
+* [Python Collaboration Documentation](https://developers.arcgis.com/python/guide/building-distributed-gis-through-collaborations/#Shortcut-to-establish-collaborations-in-a-single-step)
+* [ArcGIS Enterprise and ArcGIS Online Collaboration Manual Steps](https://enterprise.arcgis.com/en/portal/latest/administer/windows/set-up-an-arcgis-enterprise-and-arcgis-online-collaboration.htm)
+* [Key Collaboration Concepts](https://enterprise.arcgis.com/en/portal/latest/administer/windows/key-concepts.htm)
 * [ArcGIS for Python API Resource Center](https://community.esri.com/groups/arcgis-python-api/)
 
 ## Issues
