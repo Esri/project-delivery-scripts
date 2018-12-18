@@ -12,35 +12,31 @@ There are two versions:
 
 ## Features
 * [`enterprise-scripts`](/enterprise-scipts) - scripts to use if you have enterprise
-    * [`setup_collaboration.ipynb`](/setup_collaboration.ipynb) - Jupyter Notebook to create enterprise and Online collaboration
-    * [`clone_groups.ipynb`](/clone_groups.ipynb) - Jupyter Notebook to clone groups and their items
-    * [`configure_org.ipynb`](/configure_org.ipynb) - Jupyter Notebook to customize org UI & add users
+    * [`setup_collaboration.ipynb`](/enterprise-scripts/setup_collaboration.ipynb) - Jupyter Notebook to create enterprise and Online collaboration
+    * [`clone_groups.ipynb`](/enterprise-scripts/clone_groups.ipynb) - Jupyter Notebook to clone groups and their items
+    * [`configure_org.ipynb`](/enterprise-scripts/configure_org.ipynb) - Jupyter Notebook to customize org UI & add users
 * [`agol-only-scripts`](/agol-only-scripts) - scripts to use if you have ArcGIS Online only
-    * [`clone_groups.ipynb`](/clone_groups.ipynb) - Jupyter Notebook to clone groups and their items
-    * [`configure_org.ipynb`](/configure_org.ipynb) - Jupyter Notebook to customize org UI & add users
+    * [`clone_groups.ipynb`](/agol-only-scripts/clone_groups.ipynb) - Jupyter Notebook to clone groups and their items
+    * [`configure_org.ipynb`](/agol-only-scripts/configure_org.ipynb) - Jupyter Notebook to customize org UI & add users
 * [`Sample Config`](/Sample Config) - contains sample files to use in configure_org.ipynb
 
 ## Instructions
 
-1. Pick which version of the scripts will work for your set-up
-2. Find the group IDs for the groups involved in collaboration or sharing. These can be found by navigating to the group page and looking in the URL (for example, if the URL is http://envisioning.maps.arcgis.com/home/group.html?id=a7903db4086641b98570bce5856a6364#overview, the group ID is "a7903db4086641b98570bce5856a6364".
-3. Change the variables in the first cell of each script before you run it
-
-### Jupyter Notebooks:
-1. Download the zip or clone the repo (`$ git clone https://github.com/ArcGIS/pdo-scripts.git`)
-2. Nativate to the correct folder `$ cd pdo-scripts/enterprise-scripts` or `$ cd pdo-scripts/agol-online-only`
-3. Open a Jupyter Notebook that has access to the arcgis (api) library (`$ jupyter notebook`)
-4. Read the Readme located in the enterprise or arcigs online only folder and follow the rest of the instructions there.
+1. Pick which version of the scripts will work for your set-up (Enterprise or Online)
+2. Download the zip or clone the repo (`$ git clone https://github.com/ArcGIS/pdo-scripts.git`)
+3. Nativate to the correct folder `$ cd pdo-scripts/enterprise-scripts` or `$ cd pdo-scripts/agol-online-only`
+4. Open a Jupyter Notebook that has access to the arcgis (api) library (`$ jupyter notebook`)
+5. Read the Readme located in the enterprise or arcigs online only folder and follow the rest of the instructions there.
 
 
 ## Requirements
 
-* Install the [ArcGIS API for Python](https://developers.arcgis.com/python/)([instructions](https://developers.arcgis.com/python/guide/install-and-set-up/))
-* Access to [Jupyter Notebooks](http://jupyter.org/)(included with [ArcGIS Python API](https://developers.arcgis.com/python/guide/install-and-set-up/#Test-your-install-with-jupyter-notebook))
+* Install the [ArcGIS API for Python](https://developers.arcgis.com/python/) ([instructions](https://developers.arcgis.com/python/guide/install-and-set-up/))
+* Access to [Jupyter Notebooks](http://jupyter.org/) (included with [ArcGIS Python API](https://developers.arcgis.com/python/guide/install-and-set-up/#Test-your-install-with-jupyter-notebook))
 * ArcGIS Online Organization for the company (project org), and at least one Organization for an end user (delivery org)
-    - you must have access to both of these orgs with administrator privileges
-* Before automating, we recommend a services firm to deploy a few delivery organizations manually.
-* A template environment with materials for the organizations that lives in the company's Online Organization or Enterprise System (or both)
+    - You must have access to both of these orgs with administrator privileges
+* Before automating, we recommend deploying a few delivery organizations manually
+* A template group (with materials for the delivery orgs) that lives in the company's Online Organization or Enterprise System (or both)
 
 ## Resources
 
