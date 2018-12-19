@@ -18,7 +18,8 @@ There are two versions:
 * [`agol-only-scripts`](/agol-only-scripts) - scripts to use if you have ArcGIS Online only
     * [`clone_groups.ipynb`](/agol-only-scripts/clone_groups.ipynb) - Jupyter Notebook to clone groups and their items
     * [`configure_org.ipynb`](/agol-only-scripts/configure_org.ipynb) - Jupyter Notebook to customize org UI & add users
-* [`Sample Config`](/Sample_Config) - contains samples of files used in configure_org.ipynb
+* [`SampleConfig`](/SampleConfig) - contains samples of files used in configure_org.ipynb
+* [`Resource`](/Resource) - contains diagrams of system set-ups
 
 
 ## Instructions
