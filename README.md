@@ -11,13 +11,13 @@ There are two versions:
 
 
 ## Features
-* [`enterprise-scripts`](/enterprise-scipts) - scripts to use if you have enterprise
-    * [`setup_collaboration.ipynb`](/enterprise-scripts/setup_collaboration.ipynb) - Jupyter Notebook to create enterprise and Online collaboration
-    * [`clone_groups.ipynb`](/enterprise-scripts/clone_groups.ipynb) - Jupyter Notebook to clone groups and their items
-    * [`configure_org.ipynb`](/enterprise-scripts/configure_org.ipynb) - Jupyter Notebook to customize org UI & add users
+* [`enterprise-scripts`](/enterprise-scripts) - scripts to use if you have enterprise
+    * [`setup_collaboration.ipynb`](/enterprise-scripts/Setup_Collaboration.ipynb) - Jupyter Notebook to create enterprise and Online collaboration
+    * [`clone_groups.ipynb`](/enterprise-scripts/Clone_Groups.ipynb) - Jupyter Notebook to clone groups and their items
+    * [`configure_org.ipynb`](/enterprise-scripts/Configure_Org.ipynb) - Jupyter Notebook to customize org UI & add users
 * [`agol-only-scripts`](/agol-only-scripts) - scripts to use if you have ArcGIS Online only
-    * [`clone_groups.ipynb`](/agol-only-scripts/clone_groups.ipynb) - Jupyter Notebook to clone groups and their items
-    * [`configure_org.ipynb`](/agol-only-scripts/configure_org.ipynb) - Jupyter Notebook to customize org UI & add users
+    * [`clone_groups.ipynb`](/agol-only-scripts/Clone_Groups.ipynb) - Jupyter Notebook to clone groups and their items
+    * [`configure_org.ipynb`](/agol-only-scripts/Configure_Org.ipynb) - Jupyter Notebook to customize org UI & add users
 * [`SampleConfig`](/SampleConfig) - contains samples of files used in configure_org.ipynb
 * [`Resource`](/Resource) - contains diagrams of system set-ups
 
