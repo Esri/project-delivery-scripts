@@ -2,16 +2,18 @@
 
 
 ## Script 1: Setup_Collaboration.ipynb
-This script will establish the collaboration between the ArcGIS Online Organization and the ArcGIS Enterprise systems, with the Online Organization as the host. There will be a group for collaboration in Enterprise, and another in AGOL. After the script has run, these groups will share data and items by copy (if possible) and by reference (if copy is not possible). Server Service items are the only things known that cannot be synced by copy and will have to be synced by reference. All the items in the Enterprise and AGOL groups that will be synced need to have "Enable Sync" checked in their settings page in order to sync by copy. After the script has run there will also be a folder in each org's content that will have the same title as the collaboration title and will contain all the shared content for the collaboration. After this script, the Online Organization will be set up as the project org.
+This script will establish the collaboration between the ArcGIS Online Organization and the ArcGIS Enterprise systems, with the Online Organization as the host. There will be a group for collaboration in Enterprise, and another in AGOL. After the script has run, these groups will share data and items by copy (if possible) and by reference (if copy is not possible). Server Service items are the only things known that cannot be synced by copy and will have to be synced by reference. After the script has run, the Online Organization will be set up as the project org for the next two scripts. there will also be a folder in each org's content that will have the same title as the collaboration title and will contain all the  content from the other participant in the collaboration. 
 
 ### Getting Started:
 1. Ensure that there is a group set up that you will use for collaboration in both Online and Enterprise. These can be empty or have items in them and can be named different things.
 2. Find the group IDs for the collaboration groups in ArcGIS Online and Enterprise. These can be found by navigating to the group page and looking in the URL (for example, if the URL is http://envisioning.maps.arcgis.com/home/group.html?id=a7903db4086641b98570bce5856a6364#overview, the group ID is "a7903db4086641b98570bce5856a6364".
-3. Ensure that "Sync Enabled" is checked on each item's setting page in each group.
-4. 
+3. Ensure that "Enable Sync" is checked on each item's setting page in each group.
+4. Change the variables in cell 1. Example variables:
+5. Run the notebook cell by cell.
+6. After running...
 
-
-#. After the script runs, you can view the logs on
+#### Troubleshooting: 
+After the first scheduled sync, you can view the logs on the portal machine (if the portal url is "https://pdoscriptdev.esri.com/portal", go to "https://pdoscriptdev.esri.com/portal/portaladmin/logs/") to see if there were any errors with the sync (ex. layers that were not able to sync by copy). If any layers failed to sync by copy and are synced by reference instead, they will need to be unshared and reshared, after the issue is fixed. You can find more information about this in the [`Collaboration FAQs`](https://enterprise.arcgis.com/en/portal/latest/administer/windows/common-questions-for-distributed-collaboration.htm). If a feature layer syncs by copy, the feature layer will show as feature layer (hosted) for the guest, but if it syncs by reference, it will just show as a feature layer.
 
 In order to make it sync sooner than 24 hours, you need to open up the Enterprise Portal, go to Organization > Collaborations > click on the collaboration name > click on the gear icon under Action, and then click Edit Workspace. Click sync at scheduled intervals and set it to repeat every 1 hour, so it will do the first sync one hour from now. Make sure it says Feature layers are sent as copies, not references!
 
@@ -47,6 +49,7 @@ each group will be copied, renamed, and stored in this new folder.
         - ACME Sample Layer
         - ACME Sample Map
         - ACME WebApp
+
 
 ## Script 3: Configure_Org.ipynb
 In this script, the delivery organization's User Interface will be customized with banner, background, and thumbnail images, description and footer text files, and a featured group shown on the homepage. The script will also add users to the delivery org and invite them to the groups in the project org that they should have access to. 

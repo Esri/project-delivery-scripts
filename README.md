@@ -20,6 +20,7 @@ There are two versions:
     * [`configure_org.ipynb`](/agol-only-scripts/configure_org.ipynb) - Jupyter Notebook to customize org UI & add users
 * [`Sample Config`](/Sample_Config) - contains samples of files used in configure_org.ipynb
 
+
 ## Instructions
 
 1. Download the zip or clone the repo (`$ git clone https://github.com/ArcGIS/pdo-scripts.git`)
@@ -38,6 +39,7 @@ There are two versions:
 * Before automating, we recommend deploying a few delivery organizations manually
 * A template group (with materials for the delivery orgs) that lives in the company's Online Organization or Enterprise System (or both)
 
+
 ## Resources
 
 * [Collaboration FAQs](https://enterprise.arcgis.com/en/portal/latest/administer/windows/common-questions-for-distributed-collaboration.htm)
@@ -46,13 +48,16 @@ There are two versions:
 * [Key Collaboration Concepts](https://enterprise.arcgis.com/en/portal/latest/administer/windows/key-concepts.htm)
 * [ArcGIS for Python API Resource Center](https://community.esri.com/groups/arcgis-python-api/)
 
+
 ## Issues
 
 Find a bug or want to request a new feature?  Please let us know by submitting an issue.
 
+
 ## Contributing
 
 Esri welcomes contributions from anyone and everyone. Please see our [guidelines for contributing](https://github.com/esri/contributing).
+
 
 ## Licensing
 Copyright 2018 Esri
@@ -70,6 +75,3 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 A copy of the license is available in the repository's [license.txt]( https://raw.github.com/Esri/aec-scripts/master/license.txt) file.
-
-[](Esri Tags: ArcGIS Project Delivery Automation Scripts)
-[](Esri Language: Python)​

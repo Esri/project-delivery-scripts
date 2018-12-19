@@ -33,6 +33,7 @@ each group will be copied, renamed, and stored in this new folder.
         - ACME Sample Map
         - ACME WebApp
 
+
 ## Script 2: Configure_Org.ipynb
 In this script, the delivery organization's User Interface will be customized with banner, background, and thumbnail images, description and footer text files, and a featured group shown on the homepage. The script will also add users to the delivery org and invite them to the groups in the project org that they should have access to. 
 
