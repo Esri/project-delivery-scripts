@@ -30,27 +30,26 @@ After the first scheduled sync, you can view the logs on the portal machine (if 
 
 
 ## Script 2: Clone_Groups.ipynb
-In this script, the template groups will be copied within the Project organization and renamed so they can be identified
-as the groups shared with the specific delivery organization. A new folder will be created, and all the items shared with
-each group will be copied, renamed, and stored in this new folder.
+In this script, the template groups will be copied within the Project organization and renamed so they can be identified as the groups shared with the specific delivery organization. A new folder will be created, and all the items shared with each group will be copied, renamed, and stored in this new folder.
 
 ### Getting Started:
-1. Find the group IDs for the template groups. Example set-up in the project organization:
+1. Ensure that the sync scheduled in Script 1 has already happened successfully and that all the content you wish to clone as part of your template group is accessible from your ArcGIS Online Organization.
+2. Find the group IDs for the template groups. Example set-up in the project organization:
     - test-group (ID "a7903db4086641b98570bce5856a6364") contains:
         - Sample Layer
         - Sample Map
     - test-group-2 (ID "4d7ff4f81d6340428ef290b7de801204") contains:
         - Sample WebApp
-2. Change the variables in cell 1. Example variables:
+3. Change the variables in cell 1. Example variables:
     - PROJECT_PORTAL = "https://envisioning.maps.arcgis.com"
     - PROJECT_USERNAME = "admin"
     - PROJECT_GROUP_IDS = ["a7903db4086641b98570bce5856a6364", "4d7ff4f81d6340428ef290b7de801204"]
     - COPY_PREFIX = "ACME"
-3. Run the notebook cell by cell. 
-    - In cell 3, you will need to enter thet password for the project username when prompted
+4. Run the notebook cell by cell. 
+    - In cell 3, you will need to enter the password for the project username when prompted
     - In cell 5, the script will print out the existing template groups and items that will be copied over
     - In cell 6, the script will print out the groups and items that were copied and renamed
-4. Continuing this example, after running this script, the following should now also exist in the project organization:
+5. Continuing this example, after running this script, the following should now also exist in the project organization:
     - ACME-test-group contains:
         - ACME Sample Layer
         - ACME Sample Map
@@ -67,14 +66,14 @@ In this script, the delivery organization's User Interface will be customized wi
 
 ### Getting Started:
 1. Find the group IDs for the featured group and for any groups in the project org you will be adding delivery org users to.
-2. Set up the csv file of users. This csv should have columns for email, firstname, lastname, username, password, role, level, and groups. The groups column should contain group IDs that are separated by commas. There is a sample user csv in the Sample Config folder, and there is more information about formatting here (https://learn.arcgis.com/en/projects/set-up-an-arcgis-enterprise-portal/lessons/add-members-to-the-organization.htm) in steps 4 & 5.
+2. Set up the csv file of users. This csv should have columns for email, firstname, lastname, username, password, role, level, and groups. The groups column should contain group IDs that are separated by commas. There is a sample user csv in the Sample Config folder, and there is more information about formatting [`here`](https://learn.arcgis.com/en/projects/set-up-an-arcgis-enterprise-portal/lessons/add-members-to-the-organization.htm) in steps 4 & 5.
 3. Collect all other customization components. You should have a local folder containing items such as banner, background, and thumbnail images and description and footer text files.
 4. Change the variables in cell 1. Example variables:
     - PROJECT_URL = "https://envisioning.maps.arcgis.com"
     - PROJECT_USERNAME = "admin"
     - DELIVERY_URL = "https://esrienergy.maps.arcgis.com"
     - DELIVERY_USERNAME = "portaladmin"
-    - FOLDER = "/Users/joesmith/Documents/Sample_Config" or FOLDER = "C:/Users/joesmith/Documents/Sample_Config"
+    - FOLDER = "/Users/joesmith/Documents/Sample_Config" (Mac) or FOLDER = "C:/Users/joesmith/Documents/Sample_Config" (Windows)
     - GROUP_IDS = ["a7903db4086641b98570bce5856a6364", "4d7ff4f81d6340428ef290b7de801204"]
     - FEATURED_GROUP_ID = "4f4fcac023dc430294cea226231ab448"
     - THUMBNAIL_FILENAME = "thumbnail.png"

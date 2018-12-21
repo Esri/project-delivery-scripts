@@ -5,9 +5,9 @@ Project Delivery allows a Services company (the project organization) to purchas
 2. Clone Apps, Maps, and Data into the respective organizations for Services users to do work and end users to access project updates.
 
 
-There are two versions:
+There are two versions of this script:
 1. Enterprise Scripts: use the scripts in this folder if the company has ArcGIS Enterprise and an ArcGIS Online Organization and they want to use both to share content with the end users. The Online Org and the Portal will both have a group that can be empty or contain template items that they want to deploy to end users.
-2. ArcGIS Online Only Scripts: use the scripts in this folder if the company just has an ArcGIS Online Organziation that they want to use to share content with their end users. The company's ArcGIS Online Organization will have a template group or groups containing items that they want to deploy to end users.
+2. ArcGIS Online Only Scripts: use the scripts in this folder if the company just has an ArcGIS Online Organization that they want to use to share content with their end users. The company's ArcGIS Online Organization will have a template group or groups containing items that they want to deploy to end users.
 
 
 ## Features
@@ -15,7 +15,7 @@ There are two versions:
     * [`Setup_Collaboration.ipynb`](/enterprise-scripts/Setup_Collaboration.ipynb) - Jupyter Notebook to create enterprise and Online collaboration
     * [`Clone_Groups.ipynb`](/enterprise-scripts/Clone_Groups.ipynb) - Jupyter Notebook to clone groups and their items
     * [`Configure_Org.ipynb`](/enterprise-scripts/Configure_Org.ipynb) - Jupyter Notebook to customize org UI & add users
-* [`agol-only-scripts`](/agol-only-scripts) - scripts to use if you have ArcGIS Online only
+* [`AGOL-only-scripts`](/agol-only-scripts) - scripts to use if you have ArcGIS Online only
     * [`Clone_Groups.ipynb`](/agol-only-scripts/Clone_Groups.ipynb) - Jupyter Notebook to clone groups and their items
     * [`Configure_Org.ipynb`](/agol-only-scripts/Configure_Org.ipynb) - Jupyter Notebook to customize org UI & add users
 * [`SampleConfig`](/SampleConfig) - contains samples of files used in configure_org.ipynb
@@ -26,9 +26,9 @@ There are two versions:
 
 1. Download the zip or clone the repo (`$ git clone https://github.com/ArcGIS/pdo-scripts.git`)
 2. Pick which version of the scripts will work for your set-up (Enterprise or Online)
-3. Nativate to the correct folder `$ cd pdo-scripts/enterprise-scripts` or `$ cd pdo-scripts/agol-online-only`
+3. Navigate to the correct folder `$ cd pdo-scripts/enterprise-scripts` or `$ cd pdo-scripts/agol-online-only`
 4. Open a Jupyter Notebook that has access to the arcgis (api) library (`$ jupyter notebook`)
-5. Read the Readme located in the enterprise or arcigs online only folder and follow the rest of the instructions there.
+5. Read the Readme located in the enterprise or arcgis online only folder and follow the rest of the instructions there.
 
 
 ## Requirements
