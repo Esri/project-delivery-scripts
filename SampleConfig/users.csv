@@ -1,5 +1,5 @@
 email,firstname,lastname,username,password,role,level,groups
-minstructor@ljcc.edu,LJCC01,Student,ljccstudent1,ljcc1234,Student,2,
-minstructor@ljcc.edu,LJCC02,Student,ljccstudent2,ljcc1234,Viewer,2,"c7235e224da3441594a701bb4485528a"
-minstructor@ljcc.edu,LJCC03,Student,ljccstudent3,ljcc1234,Viewer,2,
-minstructor@ljcc.edu,LJCC04,Student,ljccstudent4,ljcc1234,Viewer,2,"c7235e224da3441594a701bb4485528a"
+minstructor@ljcc.edu,LJCC01,Student,ljccstudent1,ljcc1234,Creator,1,
+minstructor@ljcc.edu,LJCC02,Student,ljccstudent2,ljcc1234,Creator,1,
+minstructor@ljcc.edu,LJCC03,Student,ljccstudent3,ljcc1234,Creator,1,
+minstructor@ljcc.edu,LJCC04,Student,ljccstudent4,ljcc1234,Creator,2,
