@@ -66,7 +66,7 @@ In this script, the delivery organization's User Interface will be customized wi
 
 ### Getting Started:
 1. Find the group IDs for the featured group and for any groups in the project org you will be adding delivery org users to.
-2. Set up the csv file of users. This csv should have columns for email, firstname, lastname, username, password, role, level, and groups. The groups column should contain group IDs that are separated by commas. There is a sample user csv in the Sample Config folder, and there is more information about formatting [`here`](https://learn.arcgis.com/en/projects/set-up-an-arcgis-enterprise-portal/lessons/add-members-to-the-organization.htm) in steps 4 & 5. Make sure that the User Roles you choose are able to be added to groups!
+2. Set up the csv file of users. This csv should have columns for email, firstname, lastname, username, password, role, level, and groups. The groups column should contain group IDs that are separated by commas. There is a sample user csv in the Sample Config folder, and there is more information about formatting [`here`](https://learn.arcgis.com/en/projects/set-up-an-arcgis-enterprise-portal/lessons/add-members-to-the-organization.htm) in steps 4 & 5. Make sure that the User Roles you choose are able to be added to groups in other organizations! The default 'Viewer' role is not able to be added to groups outside of the organization.
 3. Collect all other customization components. You should have a local folder containing items such as banner, background, and thumbnail images and description and footer text files.
 4. Change the variables in cell 1. Example variables:
     - PROJECT_URL = "https://envisioning.maps.arcgis.com"
