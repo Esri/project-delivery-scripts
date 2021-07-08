@@ -1,5 +1,5 @@
-email,firstname,lastname,username,password,role,level,groups
-minstructor@ljcc.edu,LJCC01,Student,ljccstudent1,ljcc1234,Creator,1,
-minstructor@ljcc.edu,LJCC02,Student,ljccstudent2,ljcc1234,Creator,1,
-minstructor@ljcc.edu,LJCC03,Student,ljccstudent3,ljcc1234,Creator,1,
-minstructor@ljcc.edu,LJCC04,Student,ljccstudent4,ljcc1234,Creator,2,
+Email,First Name,Last Name,Username,Password,Role,User Type,groups
+gbushong@esri.com,LJCC01,Student,ljccstudent1_pdo,ljcc1234,Creator,creator,
+gbushong@esri.com,LJCC02,Student,ljccstudent2_pdo,ljcc1234,Viewer,viewer,
+gbushong@esri.com,LJCC03,Student,ljccstudent3_pdo,ljcc1234,Viewer,viewer,
+gbushong@esri.com,LJCC04,Student,ljccstudent4_pdo,ljcc1234,Viewer,viewer,
