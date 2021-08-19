@@ -12,9 +12,9 @@ In this script, the template groups will be copied within the Project organizati
     - test-group-2 (ID "4d7ff4f81d6340428ef290b7de801204") contains:
         - Sample WebApp
 2. Change the variables in cell 1. Example variables:
-    - PROJECT_PORTAL = "https://envisioning.maps.arcgis.com"
-    - PROJECT_USERNAME = "admin"
-    - PROJECT_GROUP_IDS = ["a7903db4086641b98570bce5856a6364", "4d7ff4f81d6340428ef290b7de801204"]
+    - SOURCE_URL = "https://envisioning.maps.arcgis.com"
+    - SOURCE_USERNAME = "admin"
+    - SOURCE_GROUP_IDS = ["a7903db4086641b98570bce5856a6364", "4d7ff4f81d6340428ef290b7de801204"]
     - COPY_PREFIX = "ACME"
 3. Run the notebook cell by cell. 
     - In cell 3, you will need to enter the password for the project username when prompted
@@ -38,16 +38,13 @@ In this script, the delivery organization's User Interface will be customized wi
 ### Getting Started:
 1. Find the group IDs for the featured group and for any groups in the project org you will be adding delivery org users to.
 2. Set up the csv file of users. This csv should have columns for email, firstname, lastname, username, password, role, level, and groups. The groups column should contain group IDs that are separated by commas. There is a sample user csv in the Sample Config folder, and there is more information about formatting [`here`](https://learn.arcgis.com/en/projects/set-up-an-arcgis-enterprise-portal/lessons/add-members-to-the-organization.htm) in steps 4 & 5. Make sure that the User Roles you choose are able to be added to groups in other organizations! The default 'Viewer' role is not able to be added to groups outside of the organization.
-3. Collect all other customization components. You should have a local folder containing items such as banner, background, and thumbnail images and description and footer text files.
 4. Change the variables in cell 1. Example variables:
-    - PROJECT_URL = "https://envisioning.maps.arcgis.com"
-    - PROJECT_USERNAME = "admin"
-    - DELIVERY_URL = "https://esrienergy.maps.arcgis.com"
-    - DELIVERY_USERNAME = "portaladmin"
-    - FOLDER = "/Users/joesmith/Documents/Sample_Config" (Mac) or FOLDER = "C:/Users/joesmith/Documents/Sample_Config" (Windows)
+    - SOURCE_URL = "https://envisioning.maps.arcgis.com"
+    - SOURCE_USERNAME = "admin"
+    - TARGET_URL = "https://esrienergy.maps.arcgis.com"
+    - TARGET_USERNAME = "portaladmin"
     - GROUP_IDS = ["a7903db4086641b98570bce5856a6364", "4d7ff4f81d6340428ef290b7de801204"]
     - FEATURED_GROUP_ID = "4f4fcac023dc430294cea226231ab448"
-    - THUMBNAIL_FILENAME = "thumbnail.png"
 5. Run the notebook cell by cell.
     - In cell 4, you will need to enter the passwords for the project and delivery organizations when prompted
     - In cell 6, the script will print out the users that were added to the delivery org and the project groups they were added to
