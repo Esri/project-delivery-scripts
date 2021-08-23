@@ -26,9 +26,9 @@ There are two versions of this script:
 
 1. Download the zip or clone the repo (`$ git clone https://github.com/ArcGIS/pdo-scripts.git`)
 2. Pick which version of the scripts will work for your set-up (Enterprise or Online)
-3. Navigate to the correct folder `$ cd pdo-scripts/enterprise-scripts` or `$ cd pdo-scripts/agol-online-only`
+3. Navigate to the correct folder `$ cd pdo-scripts/enterprise-scripts` or `$ cd pdo-scripts/agol-only-scripts`
 4. Open a Jupyter Notebook that has access to the arcgis (api) library (`$ jupyter notebook`)
-5. Read the Readme located in the enterprise or arcgis online only folder and follow the rest of the instructions there.
+5. Read the Readme located in `enterprise-scripts` or `agol-only-scripts` only folder and follow the rest of the instructions there.
 
 
 ## Requirements
