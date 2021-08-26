@@ -1,4 +1,4 @@
-# Project-Delivery Organization Scripts
+# project-delivery-scripts
 
 Project Delivery allows a Services company (the project organization) to purchase and manage ArcGIS Online on behalf of their end users (the delivery organizations). These scripts are meant to be a starting point for Services users to automate the deployment of their industry-specific maps and apps to end users. They do two things:
 1. Automatically customize and populate a new ArcGIS Online Organization for project delivery
