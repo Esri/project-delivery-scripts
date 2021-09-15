@@ -1,0 +1,5 @@
+Email,First Name,Last Name,Username,Password,Role,User Type,groups
+gbushong@esri.com,LJCC01,Student,ljccstudent1_pdo,ljcc1234,Creator,creator,
+gbushong@esri.com,LJCC02,Student,ljccstudent2_pdo,ljcc1234,Viewer,viewer,
+gbushong@esri.com,LJCC03,Student,ljccstudent3_pdo,ljcc1234,Viewer,viewer,
+gbushong@esri.com,LJCC04,Student,ljccstudent4_pdo,ljcc1234,Viewer,viewer,
